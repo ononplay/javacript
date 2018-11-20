@@ -1,0 +1,152 @@
+.section-top{
+    border-bottom: 2px solid #60bff2;
+    /* float: left; */
+    /* text-align: left; */
+    margin-top: 40px;
+}
+.section-top .section-top-span{
+    color: #60bff2;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    /* float: left; */
+}
+.section-top .section-active{
+    color: white;
+    background-color: #60bff2;
+}
+.section-part{
+    margin-top: 20px;
+}
+.sp-left{
+    width:  705px;
+    float: left;
+    display: none;
+}
+.section-part .sp-left-active{
+    display: block;
+}
+.sp-left .sp-name{
+
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    background: #f4f6fa;
+}
+.sp-left .sp-action{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #f4f6fa;
+}
+/* .clearfix{
+    content: '';
+    height: 0;
+    clear: both;
+    display: block;
+    
+} */
+.sp-left .sp-action .sp-action-left{
+    width: 140px;
+    height: 100%;
+    background: #f2fbff;
+    float: left;
+    text-align: center;
+}
+.sp-left .sp-action-right{
+    padding-left: 15px;
+    width: 550px;
+    float: left;
+} 
+.sp-left .sp-action-right span{
+    width: 118px;
+    font-weight: bold;
+    display: inline-block;
+}
+/* 第三个 */
+
+.sp-left-title{
+    text-align: center;
+}
+table{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    border-collapse:collapse;
+}
+td{
+    height: 20px;
+    border: 1px solid black
+}
+.sp-left-search{
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray
+}
+.sp-left-search button{
+    background: #60bff2;
+    color: white;
+    text-align: center;
+    /* height: 20px;
+    line-height: 20px; */
+    border: none;
+}
+
+
+
+
+
+
+
+.sp-right{
+    width: 270px;
+          border: 1px solid #f4f6fa;
+    height: 285px;
+float: right;
+}
+.spr-top{
+   height: 50px;
+    line-height: 50px;
+padding-left: 10px;
+    background: #f4f6fa;
+    
+}
+.spr-top span{
+    font-size: 12px;
+    color: #00b3ea;
+
+}
+
+.spr-scroll{
+    height: 220px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.spr-scrollpart{
+    position: relative;
+    padding-left: 70px;
+}
+.spr-title{
+    width: 70px;
+    text-align: right;
+    padding-right: 10px;
+  position: relative;
+  left: -70px
+}
+.spr-section{
+    /* position: relative; */
+    color: #888888;
+    /* text-indent: -70px; */
+   /* left: 75px */
+    
+}
+.spr-title,.spr-section{
+line-height: 23px;
+display: inline-block;
+}

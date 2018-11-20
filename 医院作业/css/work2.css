@@ -1,0 +1,109 @@
+.section-top2{
+    margin-top: 40px;
+}
+.section-top2 a{
+    color: #00b3ec;
+}
+.section-part{
+    width: 100%;
+    height: 390px;
+    border: 1px solid #dcdddd;
+    margin-top: 15px;
+}
+.sp-top{
+    width: 100%;
+    border-bottom: 1px solid #dcdddd;
+    height: 325px;
+}
+
+.spt-time{
+    /* display: flex; */
+    width: 37px;
+    height: 100%;
+    border: 1px solid #dcdddd;
+    box-sizing: border-box;
+}
+.spt-toleft{
+    width: 100%;
+    height: 40px;
+    background:white; 
+    
+    background: url(../img/icon-scheduling-left.jpg) no-repeat center center;
+}
+.spt-morning,
+.spt-evening,
+.spt-afternoon
+{
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    background: #f2fbff;
+
+}
+.spt-toright{
+    background: url(../img/icon-scheduling-right.jpg) no-repeat center center;
+    height: 40px;
+}
+.spt-timeright{
+    background: #f2fbff;
+}
+
+
+
+
+.spt-infinite{
+    width: 100000px;
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.spt-middle{
+    width: 658px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.sptm-date{
+    height: 100%;
+    width: 94px;
+    border-right: 1px solid #dcdddd;
+    box-sizing: border-box;
+    float: left;
+}
+.sptmd-time{
+    text-align: center;
+    font-size: .8em;
+    height: 40px;
+    border-bottom: 1px solid #dcdddd; 
+}
+.sptmd-time span{
+    display: block;
+}
+.sptmd-morning,
+.sptmd-evening,
+.sptmd-afternoon{
+    border-bottom: 1px solid #dcdddd;
+    box-sizing: border-box;
+ height: 95px;
+    line-height: 95px;
+    text-align: center;
+}
+.sptmd-have{
+    background: #e0eefd
+
+}
+
+.spt-right{
+    overflow: auto;
+    height: 100%;
+
+}
+.spr-scroll{
+    padding-left: 10px;
+}
+.spt-middle,.spt-time{
+    float: left;
+}
